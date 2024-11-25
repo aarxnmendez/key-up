@@ -29,7 +29,11 @@ To run Key-Up locally:
    ```bash
    cd key-up
    ```
-3. Open the `index.html` file in your preferred web browser
+3. If you're using Visual Studio Code, install the **Live Server** extension from the marketplace.
+
+4. Open the `index.html` file with Live Server:
+   - Right-click on the index.html file in Visual Studio Code and select **Open with Live Server**.
+   - The page will open automatically in your default web browser.
 
 That's it! No build process or dependencies required.
 
@@ -39,7 +43,7 @@ To start developing:
 
 1. Open the project folder in your favorite code editor
 2. Make changes to the HTML, CSS, or JavaScript files
-3. Refresh your browser to see the changes
+3. Refresh your browser or use Live Server to see the changes in real-time.
 
 ## 🤝 Contributing
 
