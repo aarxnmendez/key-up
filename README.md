@@ -1,6 +1,7 @@
 # Key-Up: Enhance Your Typing Skills
 
-Key-Up is a web-based typing game inspired by Monkeytype, designed to help you improve your typing speed and accuracy in an engaging and interactive way. Built with pure HTML and JavaScript, it's lightweight and easy to use.
+## 💡 About the Project
+Key-Up is a web-based typing game designed to help you improve your typing speed and accuracy in an engaging and interactive way. Inspired by the popular typing game Monkeytype, Key-Up offers a minimalist interface and real-time feedback to track your progress. Built with vanilla HTML, CSS, and JavaScript, it provides a lightweight and fast experience, making it easy for users of all levels to practice and enhance their typing skills.
 
 ## 🚀 Features
 
@@ -17,37 +18,59 @@ Key-Up is a web-based typing game inspired by Monkeytype, designed to help you i
 3. Start typing the displayed text as quickly and accurately as possible
 4. Review your results and track your progress
 
-## 🛠️ Installation
-
-To run Key-Up locally:
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/aarxnmendez/key-up.git
-   ```
-2. Navigate to the project directory
-   ```bash
-   cd key-up
-   ```
-3. If you're using Visual Studio Code, install the **Live Server** extension from the marketplace.
-
-4. Open the `index.html` file with Live Server:
-   - Right-click on the index.html file in Visual Studio Code and select **Open with Live Server**.
-   - The page will open automatically in your default web browser.
-
-That's it! No build process or dependencies required.
-
 ## 🖥️ Development
 
 To start developing:
 
 1. Open the project folder in your favorite code editor
 2. Make changes to the HTML, CSS, or JavaScript files
-3. Refresh your browser or use Live Server to see the changes in real-time.
+3. Refresh your browser or use **Live Server** to see the changes in real-time.
+
+## 🛠️ Built With
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+## 🛣️ Roadmap
+- [ ] Add support for multiple languages
+- [ ] Implement leaderboards for competitive play
+- [ ] Add dark mode
+- [ ] Include customizable themes
+- [ ] Display heatmaps for keystrokes
 
 ## 🤝 Contributing
 
-We welcome contributions to Key-Up! If you have suggestions for improvements or encounter any issues, please feel free to open an issue or submit a pull request.
+We welcome contributions to Key-Up! Here's how you can contribute:
+
+1. **Fork the repository**: Click the "Fork" button at the top of the repository to create your own copy.
+   
+2. **Clone your fork**: Clone the repository to your local machine.
+   ```bash
+   git clone https://github.com/aarxnmendez/key-up.git
+   ```
+   
+4. **Create a new branch**: Create a new branch for your changes
+   ```bash
+   git checkout -b feature-name
+   ```
+   
+5. **Make your changes**: Implement the necessary changes in the HTML, CSS, or JavaScript files.
+   
+6. **Commit your changes**: Commit your changes with a descriptive message
+   ```bash
+   git commit -m "Description of the changes"
+   ```
+   
+7. **Push your changes**: Push the changes to your fork
+   ```bash
+   git push origin feature-name
+   ```
+8. **Submit a Pull Request**: Open a pull request to the main repository. Provide a clear explanation of the changes you've made and why they are needed.
+
+For more information, check the Issues section for open tasks or feature requests.
+   
+## ⚠️ Disclaimer
+This project is currently under development. Some features may not yet be functional, and the codebase is subject to change.
 
 ## 📄 License
 
@@ -55,10 +78,9 @@ This project is licensed under the Apache-2.0 License - see the [LICENSE](https:
 
 ## 🙏 Acknowledgements
 
-- Inspired by [Monkeytype](https://monkeytype.com/)
-- Built with vanilla HTML, CSS, and JavaScript
+- Inspired by [Monkeytype](https://monkeytype.com/), which provided the concept and inspiration for this project.
 
 ---
 
-Happy Typing! ⌨️💨
-
+## 🌟 Support the Project
+If you like this project, please consider giving it a ⭐ on GitHub—it helps to spread the word and keeps the motivation high! Contributions are always welcome.
