@@ -74,7 +74,7 @@ This project is currently under development. Some features may not yet be functi
 
 ## 📄 License
 
-This project is licensed under the Apache-2.0 License - see the [LICENSE](https://github.com/aarxnmendez/key-up/LICENSE) file for details.
+This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgements
 
