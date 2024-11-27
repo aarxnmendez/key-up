@@ -19,7 +19,6 @@ Key-Up is a web-based typing game designed to help you improve your typing speed
 4. Review your results and track your progress
 
 ## 🖥️ Development
-
 To start developing:
 
 1. Open the project folder in your favorite code editor
@@ -39,7 +38,6 @@ To start developing:
 - [ ] Display heatmaps for keystrokes
 
 ## 🤝 Contributing
-
 We welcome contributions to Key-Up! Here's how you can contribute:
 
 1. **Fork the repository**: Click the "Fork" button at the top of the repository to create your own copy.
@@ -77,9 +75,8 @@ This project is currently under development. Some features may not yet be functi
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgements
-
 - Inspired by [Monkeytype](https://monkeytype.com/), which provided the concept and inspiration for this project.
-
+- 
 ---
 
 ## 🌟 Support the Project
