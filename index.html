@@ -29,7 +29,7 @@
 <body>
     <main>
         <section id="game">
-            <time>30</time>
+            <time></time>
             <p></p>
             <input autofocus>
         </section>
@@ -37,22 +37,42 @@
 </body>
 
 <script>
-    const $time = document.querySelector('time');
-    const $paragraph = document.querySelector('p');
-    const $input = document.querySelector('input');
+    const $time = document.querySelector('time')
+    const $paragraph = document.querySelector('p')
+    const $input = document.querySelector('input')
 
-    const INICIAL_TIME = 30;
+    const INICIAL_TIME = 30
 
     const TEXT = `lorem ipsum dolor sit amet consectetur adipisicing elit
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`;
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
 
-    let words = [];
-    let currentTime = INICIAL_TIME;
+    let words = []
+    let currentTime = INICIAL_TIME
 
-    initGame();
-    initEvents();
+    initGame()
+    initEvents()
 
-    
+    function initGame() {
+        words = TEXT.split(' ').slice(0, 32)
+        currentTime = INICIAL_TIME
+
+        $time.textContent = currentTime
+
+        $paragraph.innerHTML = words.map((word, index) => {
+            const letters = word.split('')
+
+            return `<x-word>
+                ${letters
+                    .map(letter => `<x-letter>${letter}</x-letter>`)
+                    .join('')
+                }
+            </x-word>
+            `
+        }).join('')
+    }
+
+    function initEvents() { }
+
 </script>
 
 </html>
