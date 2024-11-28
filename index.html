@@ -30,10 +30,29 @@
     <main>
         <section id="game">
             <time>30</time>
-            <paragraph></paragraph>
+            <p></p>
             <input autofocus>
         </section>
     </main>
 </body>
+
+<script>
+    const $time = document.querySelector('time');
+    const $paragraph = document.querySelector('p');
+    const $input = document.querySelector('input');
+
+    const INICIAL_TIME = 30;
+
+    const TEXT = `lorem ipsum dolor sit amet consectetur adipisicing elit
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`;
+
+    let words = [];
+    let currentTime = INICIAL_TIME;
+
+    initGame();
+    initEvents();
+
+    
+</script>
 
 </html>
