@@ -76,7 +76,6 @@ This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENS
 
 ## 🙏 Acknowledgements
 - Inspired by [Monkeytype](https://monkeytype.com/), which provided the concept and inspiration for this project.
-- 
 ---
 
 ## 🌟 Support the Project
