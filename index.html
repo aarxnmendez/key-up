@@ -26,11 +26,11 @@
             margin-top: 32px;
         }
 
-        main {
+        section {
             padding: 16px;
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: 4px;
             max-width: 500px;
         }
 
@@ -51,6 +51,30 @@
             display: flex;
             flex-wrap: wrap;
             gap: 3px 8px;
+            margin: 0;
+        }
+
+        x-letter {
+            color: var(--gray);
+            position: relative;
+            
+            &.active::before {
+                content: '|';
+                color: var(--yellow);
+                font-size: 14px;
+                position: absolute;
+                left: -55%;
+                animation: 1s blink infinite ease-in-out;
+            }
+        }
+
+        @keyframes blink {
+            0%, 25% {
+                opacity: 1;
+            }
+            75% {
+                opacity: 0;
+            }
         }
     </style>
 </head>
@@ -66,6 +90,7 @@
 </body>
 
 <script>
+    // Elements
     const $time = document.querySelector('time')
     const $paragraph = document.querySelector('p')
     const $input = document.querySelector('input')
@@ -81,6 +106,7 @@ sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
     initGame()
     initEvents()
 
+    // Game
     function initGame() {
         words = TEXT.split(' ').slice(0, 32)
         currentTime = INICIAL_TIME
@@ -98,9 +124,33 @@ sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
             </x-word>
             `
         }).join('')
+
+        const $firstWord = $paragraph.querySelector('x-word')
+        $firstWord.classList.add('active')
+        $firstWord.querySelector('x-letter').classList.add('active')
+
+        // Timer
+        const intervalId = setInterval(() => {
+            currentTime--
+            $time.textContent = currentTime
+
+            if (currentTime === 0) {
+                clearInterval(intervalId)
+                gameOver()
+            }
+        }, 1000)
     }
 
+
+
+
+    // Events
     function initEvents() { }
+
+    // Game Over
+    function gameOver() {
+        console.log('Game Over')
+    }
 
 </script>
 
