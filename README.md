@@ -6,7 +6,6 @@ Key-Up is a web-based typing game designed to help you improve your typing speed
 ## 🚀 Features
 
 - **Real-time Typing Analysis**: Get instant feedback on your typing speed and accuracy.
-- **Customizable Practice Sessions**: Choose from various text lengths and difficulties.
 - **Progress Tracking**: Monitor your improvement over time with detailed statistics.
 - **Sleek, Distraction-free Interface**: Focus solely on your typing with our minimalist design.
 - **Lightweight and Fast**: Built with vanilla HTML and JavaScript for optimal performance.
