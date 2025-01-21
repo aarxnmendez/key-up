@@ -15,14 +15,6 @@ Key-Up is a web-based typing game designed to help you improve your typing speed
 - CSS3
 - JavaScript (ES6+)
 
-## 🛣️ Roadmap
-- [ ] Add support for multiple languages
-- [ ] Implement leaderboards for competitive play
-- [ ] Display heatmaps for keystrokes
-   
-## ⚠️ Disclaimer
-This project is currently under development. Some features may not yet be functional, and the codebase is subject to change.
-
 ## 📄 License
 
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details.
