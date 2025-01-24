@@ -17,7 +17,6 @@ Key-Up is a web-based typing game designed to help you improve your typing speed
 - JavaScript (ES6+)
 
 ## 📄 License
-
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgements
