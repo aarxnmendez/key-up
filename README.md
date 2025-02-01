@@ -4,7 +4,6 @@
 Key-Up is a web-based typing game designed to help you improve your typing speed and accuracy in an engaging and interactive way. Inspired by the popular typing game Monkeytype, Key-Up offers a minimalist interface and real-time feedback to track your progress. Built with vanilla HTML, CSS, and JavaScript, it provides a lightweight and fast experience, making it easy for users of all levels to practice and enhance their typing skills.
 
 ## 🚀 Features
-
 - **Real-time Typing Analysis**: Get instant feedback on your typing speed and accuracy.
 - **Progress Tracking**: Monitor your improvement over time with detailed statistics.
 - **Sleek, Distraction-free Interface**: Focus solely on your typing with our minimalist design.
